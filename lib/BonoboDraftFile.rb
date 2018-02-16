@@ -2,7 +2,10 @@
 
 require 'discordrb'
 
-bot = Discordrb::Bot.new token: 'NDEzMjA2MjUwOTUyNzIwMzk0.DWi0qg.ihlWz76mDsWL9kjOrHvPTFODokk', client_id: 413206250952720394
+#   bonobo_discord_api_key=NDEzMjA2MjUwOTUyNzIwMzk0.DWi0qg.ihlWz76mDsWL9kjOrHvPTFODokk ruby my_bot.rb
+
+
+bot = Discordrb::Bot.new token: ENV['bonobo_discord_api_key'], client_id: 413206250952720394
 
 puts "This bot's invite URL is #{bot.invite_url}."
 puts 'Click on it to invite it to your server.'
