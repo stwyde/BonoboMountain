@@ -15,7 +15,7 @@ The primary purpose of this application is to follow Jack Linden (AffirmedWin123
 
 #Software Dependencies
 BonoboMountain requires the following: 
-* Ruby 2.4 or above
+* Ruby 2.5 or above
 * ffmpeg
 * libsodium
 * discordrb
