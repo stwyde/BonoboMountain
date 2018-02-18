@@ -4,7 +4,7 @@ require "json"
 require "date"
 
 
-API_KEY = "ENTERAPI KEY HERE"
+API_KEY = ENV['apikey']
 
 @region = 'na'
 @summoner_name = "affirmedwin123"
